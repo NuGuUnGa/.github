@@ -1,0 +1,18 @@
+name: 기능 제안
+description: 새로 만들고 싶은 기능이나 실험을 적습니다.
+title: "[Feature] "
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: 만들고 싶은 기능
+      description: 누가 어떤 상황에서 쓸 기능인가요?
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 기대하는 결과
+      description: 어떤 동작이 되면 이 작업이 끝난 건가요?
+    validations:
+      required: true

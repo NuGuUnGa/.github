@@ -1,0 +1,18 @@
+name: 개선 제안
+description: 이미 있는 기능이나 작업 흐름에서 바꾸고 싶은 점을 적습니다.
+title: "[Improvement] "
+body:
+  - type: textarea
+    id: friction
+    attributes:
+      label: 지금 불편한 점
+      description: 어떤 상황에서 무엇이 불편한가요?
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: 바꾸고 싶은 점
+      description: 어떤 상태가 되면 개선됐다고 볼 수 있나요?
+    validations:
+      required: true
