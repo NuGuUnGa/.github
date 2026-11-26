@@ -1,0 +1,23 @@
+name: 버그 신고
+description: 예상과 다르게 동작하는 문제를 기록합니다.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 실제 동작과 기대한 동작
+      description: 어떤 일이 일어났고 원래 어떻게 동작해야 하나요?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 방법
+      description: 어떤 순서로 조작하면 같은 문제가 생기나요?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 환경과 참고 자료
+      description: 관련 버전, 화면 또는 오류 메시지가 있으면 첨부해 주세요.
